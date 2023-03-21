@@ -64,7 +64,7 @@ object{
 @media only screen and (max-width: 1000px){
   nav ul{
     width: 100%;
-    background: linear-gradient(black,gray);
+    background-color: black;
     position: absolute;
     top: 75px;
     right: 0;
@@ -75,12 +75,28 @@ object{
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  .menu{
-    display: block;
-    margin-left: 700px;
-    width: 40px;
-  }
   #menuList{
     overflow: hidden;
     transition: 0.5s;
+    width: 300px;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+  }
+  #menuList:hover{
+    color: cyan;
+  }
+  .menu{
+    display: block;
+    margin-left: 450px;
+    width: 80px;
+  }
+  .navbar{
+    height: 200px;
+  }
+  .logo{
+    width: 120px;
+  }
+  .port{
+    font-size: 70px;
   }
