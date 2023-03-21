@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: times new roman;
+}
+body{
+  background-color: rgb(25,25,100);
+}
+.body{
+  margin: 60px;
+}
+h2{
+  color: cyan;
+  font-weight: 100;
+}
+h1{
+  color: white;
+  font-size: 60px;
+  font-weight: 100;
+}
+span{
+  color: cyan;
+}
+p{
+  color: white;
+  line-height: 1.9;
+  word-spacing: 2px;
+  font-size: 18px;
+}
+.navbar{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: black;
+}
+.logo{
+  width: 50px;
+  margin: 20px 0;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+.port{
+  padding-left: 20px;
+  color: cyan;
+  font-size: 30px;
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+li a{
+  text-decoration: none;
+  color: white;
+}
+li a:hover{
+  color: cyan;
+}
+.btn{
+  padding: 0.6rem 2rem;
+  font-size: 1rem;
+  font-weight: 1000;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  border-style: none;
+  border:2px solid cyan;
+}
+.btn:hover{
+  color: black;
+  background-color: cyan;
+}
+.menu{
+  width: 25px;
+  cursor: pointer;
+  display: none;
+  margin-left: 400px;
+}
+@media only screen and (max-width: 1000px){
+  nav ul{
+    width: 100%;
+    background: linear-gradient(black,gray);
+    position: absolute;
+    top: 75px;
+    right: 0;
+    z-index: 2;
+  }
+  li{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .menu{
+    display: block;
+    margin-left: 700px;
+  }
+  #menuList{
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  h1{
+    font-size: 100px;
+  }
+  p{
+    text-align: justify;
+  }
+  .btn{
+    width: 500px;
+    height: 80px;
+    margin-left: 130px;
+    font-size: 2rem;
+  }

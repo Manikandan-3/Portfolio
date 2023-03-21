@@ -1,0 +1,47 @@
+<html>
+<head>
+	<title>www.Portfolio.com</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="website icon" type="jpg" href="logo1.jpg">
+</head>
+<body>
+      <div class="navbar">
+        <img src="logo1.jpg" class="logo">
+        <p class="port">Portfolio</p>
+        <nav>
+          <ul id="menuList">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <img src="logo1.jpg" class="menu" onclick="togglemenu()">
+        </nav>
+      </div>
+<div Class="body">
+    <h2>Manikandan</h2>
+    <h1>I'm a Web<br><span>Developer</span></h1><br>
+      <p>I’m a web developer. I spend my whole day, practically every day, experimenting with HTML, CSS, and JavaScript; dabbling with Java and Python; and inhaling a wide variety of potentially useless information through a few hundred RSS feeds. I build websites that delight and inform. I do it well.<br><br>
+      I’m curious, and I enjoy work that challenges me to learn something new and stretch in a different direction. I do my best to stay on top of changes in the state of the art so that I can meet challenges with tools well suited to the job at hand. The list of projects I follow on GitHub will give you a good idea of the types of tools I’d prefer to be using, and my Instapaper “Starred” list will give you a glimpse into the reading material I find interesting enough to share.</p><br><br>
+      <div>
+        <a href="Resume2023.pdf">
+          <button Class="btn">DOWNLOAD CV</button>
+        </a>
+      </div>
+</div>
+<script>
+    var menuList=document.getElementById("menuList");
+    menuList.style.maxHeight="0px";
+    function togglemenu(){
+       if (menuList.style.maxHeight=="0px")
+       {
+          menuList.style.maxHeight="130px";
+       }
+       else
+       {
+          menuList.style.maxHeight="0px";
+       }
+    }
+</script>
+</body>
+</html>
