@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: times new roman;
+}
+body{
+  background-color: rgb(25,25,100);
+  font-family: times new roman;
+}
+.body{
+  margin: 60px;
+}
+.navbar{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: black;
+}
+.logo{
+  width: 50px;
+  margin: 20px 0;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+.port{
+  padding-left: 20px;
+  color: cyan;
+  font-size: 30px;
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+li a{
+  text-decoration: none;
+  color: white;
+}
+li a:hover{
+  color: cyan;
+}
+h3 img{
+  width: 100px;
+  height: 100px;
+  float: right;
+}
+h4 img{
+  width: 100px;
+  height: 100px;
+  float: right;
+}
+h1{
+    color: cyan;
+    font-size: 40px;
+}
+h2{
+	color: white;
+  font-size: 30px;
+}
+h3{
+  color: cyan;
+}
+h4{
+  color: cyan;
+}
+.body p{
+	line-height: 1.9;
+  margin-bottom: 2rem;
+	color: white;
+}
+.menu{
+  width: 25px;
+  cursor: pointer;
+  display: none;
+  margin-left: 400px;
+}
+@media only screen and (max-width: 1000px){
+  nav ul{
+    width: 100%;
+    background: linear-gradient(black,gray);
+    position: absolute;
+    top: 75px;
+    right: 0;
+    z-index: 2;
+  }
+  nav ul li{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .menu{
+    display: block;
+    margin-left: 700px;
+    width: 40px;
+  }
+  #menuList{
+    overflow: hidden;
+    transition: 0.5s;
+  }

@@ -1,0 +1,40 @@
+<html>
+<head>
+  <title>www.Portfolio.com</title>
+    <link rel="stylesheet" type="text/css" href="resume.css">
+    <link rel="website icon" type="jpg" href="logo1.jpg">
+</head>
+<body>
+    <div class="navbar">
+      <img src="logo1.jpg" class="logo">
+      <p class="port">Portfolio</p>
+      <nav>
+        <ul id="menuList">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <img src="drop.png" class="menu" onclick="togglemenu()">
+      </nav>
+    </div>
+    <div class="body">
+      <h2>Curriculum Vitae:-</h2><br>
+      <object data="Resume2023.pdf" width="800" height="500"></object>
+    </div>
+<script>
+    var menuList=document.getElementById("menuList");
+    menuList.style.maxHeight="0px";
+    function togglemenu(){
+       if (menuList.style.maxHeight=="0px")
+       {
+          menuList.style.maxHeight="130px";
+       }
+       else
+       {
+          menuList.style.maxHeight="0px";
+       }
+    }
+</script>
+ </body>
+</html>
