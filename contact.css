@@ -57,7 +57,6 @@ li a:hover{
   background-color: rgb(25,25,100);
 }
 .services-head{
-color: rgb(10, 9, 9);
 text-align: center;
 margin-bottom: 1rem;
 line-height: 0.5rem;
@@ -117,7 +116,11 @@ font-family: times new roman;
 color: black;
 line-height: 1.6;
 height: 10em;
+text-decoration: none;
 }
+.card-grid a{
+    text-decoration: none;
+  }
 .card1:hover{
 background-image: linear-gradient(
     to bottom left,
@@ -173,7 +176,7 @@ color: var(--white);
 @media only screen and (max-width: 1000px){
   nav ul{
     width: 100%;
-    background: linear-gradient(black,gray);
+    background-color: black;
     position: absolute;
     top: 75px;
     right: 0;
@@ -184,21 +187,63 @@ color: var(--white);
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  .menu{
-    display: block;
-    margin-left: 700px;
-    width: 40px;
-  }
-  #menulist{
+  #menuList{
     overflow: hidden;
     transition: 0.5s;
+    width: 300px;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+  }
+  #menuList:hover{
+    color: cyan;
+  }
+  .menu{
+    display: block;
+    margin-left: 450px;
+    width: 80px;
+  }
+  .navbar{
+    height: 200px;
+  }
+  .logo{
+    width: 120px;
+  }
+  .port{
+    font-size: 70px;
   }
   .card-grid{
     width: 500px;
     display: block; 
     margin-left: 250px;
     padding-bottom: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .card-grid a{
+    text-decoration: none;
   }
   .card1{
-
+    border-radius: 20px;
+    text-decoration: none;
+  }
+  .card2{
+    border-radius: 20px;
+  }
+  .card3{
+    border-radius: 20px;
+  }
+  .br{
+    padding: 20px;
+  }
+  .services-head{
+    font-size: 60px;
+    padding: 20px;
+  }
+  .para{
+    font-size: 40px;
+  }
+  .footer{
+    font-size: 40px;
   }
