@@ -4,6 +4,10 @@
   box-sizing: border-box;
   font-family: times new roman;
 }
+.fa-solid{
+  color: cyan;
+  padding: 5px;
+}
 body{
   background-color: rgb(25,25,100);
   font-family: times new roman;
@@ -47,13 +51,13 @@ li a:hover{
 }
 h2{
 	color: cyan;
-  font-size: 30px;
+  font-size: 60px;
 	text-decoration: none;
 }
 object{
   padding-left: 100px;
-  width: 820px;
-  height: 1100px;
+  width: 920px;
+  height: 1020px;
 }
 .menu{
   width: 25px;
@@ -100,3 +104,11 @@ object{
   .port{
     font-size: 70px;
   }
+  .fa-solid{
+    padding: 15px;
+  }
+  object{
+    width:900px;
+    height: 750px;
+  }
+}
