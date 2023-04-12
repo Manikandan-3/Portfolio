@@ -4,6 +4,10 @@
   box-sizing: border-box;
   font-family: times new roman;
 }
+.fa-solid{
+  color: cyan;
+  padding: 5px;
+}
 body{
   background-color: rgb(25,25,100);
   font-family: times new roman;
@@ -94,6 +98,9 @@ h4{
     margin-top: 10px;
     margin-bottom: 10px;
   }
+  h1{
+    font-size: 60px;
+  }
   #menuList{
     overflow: hidden;
     transition: 0.5s;
@@ -119,3 +126,7 @@ h4{
   .port{
     font-size: 70px;
   }
+  .fa-solid{
+    padding: 15px;
+  }
+}
