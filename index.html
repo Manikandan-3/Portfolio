@@ -3,6 +3,7 @@
 	<title>www.Portfolio.com</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="website icon" type="jpg" href="logo1.jpg">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
       <div class="navbar">
@@ -10,10 +11,10 @@
         <p class="port">Portfolio</p>
         <nav>
           <ul id="menuList">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.html"><i class="fa-solid fa-house"></i>Home</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-circle-info"></i>About</a></li>
+            <li><a href="resume.html"><i class="fa-solid fa-right-to-bracket"></i>Resume</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-phone"></i>Contact</a></li>
           </ul>
           <img src="drop.png" class="menu" onclick="togglemenu()">
         </nav>
@@ -35,7 +36,7 @@
     function togglemenu(){
        if (menuList.style.maxHeight=="0px")
        {
-          menuList.style.maxHeight="250px";
+          menuList.style.maxHeight="450px";
        }
        else
        {
