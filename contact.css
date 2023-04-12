@@ -4,6 +4,10 @@
   box-sizing: border-box;
   font-family: times new roman;
 }
+.fa-solid{
+  color: cyan;
+  padding: 5px;
+}
 body{
   background-color: rgb(25,25,100);
   font-family: times new roman;
@@ -45,84 +49,74 @@ li a{
 li a:hover{
   color: cyan;
 }
-@import 'utilities.css';
-:root{
---primary: rgb(29, 221, 189);
---bgdark: rgb(12, 12, 12);
---white: rgb(250, 250, 250);
---secondary: rgb(0, 59, 50);
---bglight: rgb(190, 181, 181);
-}
-.services{
-  background-color: rgb(25,25,100);
-}
+
 .services-head{
-text-align: center;
-margin-bottom: 1rem;
-line-height: 0.5rem;
-color: var(--primary);
+  text-align: center;
+  margin-bottom: 1rem;
+  line-height: 0.5rem;
+  color:cyan;
 }
 .services-head + p{
-color: var(--white);
-font-family: times new roman;
-margin-bottom: 1rem;
-text-align: center;
-margin-bottom: 6rem;
-font-weight: 400;
+  color: white;
+  font-family: times new roman;
+  margin-bottom: 1rem;
+  text-align: center;
+  margin-bottom: 6rem;
+  font-weight: 400;
 }
 .card-grid img{
-width: 50px;
-background:white;
-border-radius: 25px;
-position: absolute;
-top: -1.5rem;
-left: 50%;
-transform: translatex(-50%);
+  width: 50px;
+  background:white;
+  border-radius: 25px;
+  position: absolute;
+  top: -1.5rem;
+  left: 50%;
+  transform: translatex(-50%);
 }
 .card-grid{
-display: grid;
-grid-template-columns: repeat(3,1fr);
-column-gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 2rem;
 }
 .card1{
-background: var(--white);
-padding: 3rem 2rem;
-position: relative;
-text-align: center;
-transition: all .2s ease;
+  background-color: white;
+  padding: 3rem 2rem;
+  position: relative;
+  text-align: center;
+  transition: all .2s ease;
 }
 .card2{
-background: var(--white);
-padding: 3rem 2rem;
-position: relative;
-text-align: center;
-transition: all .2s ease;
+  background-color: white;
+  padding: 3rem 2rem;
+  position: relative;
+  text-align: center;
+  transition: all .2s ease;
 }
 .card3{
-background: var(--white);
-padding: 3rem 2rem;
-position: relative;
-text-align: center;
-transition: all .2s ease;
+  background-color: white;
+  padding: 3rem 2rem;
+  position: relative;
+  text-align: center;
+  transition: all .2s ease;
 }
 .card-grid h2{
-color: navy;
-font-weight: 600;
-font-size: 1.2rem;
-margin-bottom: 0.5rem;
+  color: navy;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
 }
 .card-grid p{
-font-family: times new roman;
-color: black;
-line-height: 1.6;
-height: 10em;
-text-decoration: none;
+  font-family: times new roman;
+  color: black;
+  line-height: 1.6;
+  height: 10em;
+  text-decoration: none;
 }
 .card-grid a{
-    text-decoration: none;
-  }
+  text-decoration: none;
+}
 .card1:hover{
-background-image: linear-gradient(
+  background-image: linear-gradient(
     to bottom left,
     #4f5bd5,
     #962fbf,
@@ -132,31 +126,32 @@ background-image: linear-gradient(
   );
 }
 .card2:hover{
-background-color: red;
+  background-color: red;
 }
 .card3:hover{
-background-color: blue;
+  background-color: blue;
 }
 .card1:hover h2{
-color: var(--white);
+  color: white;
 }
 .card2:hover h2{
-color: var(--white);
+  color: white;
 }
 .card3:hover h2{
-color: var(--white);
+  color: white;
 }
 .card1:hover p{
-color: var(--white);
+  color: white;
 }
 .card2:hover p{
-color: var(--white);
+  color: white;
 }
 .card3:hover p{
-color: var(--white);
-}
-.container h1{
   color: white;
+}
+.card-grid h1{
+  color: white;
+  border-radius: 25px;
   background-color: rgb(25,25,100)
 }
 .footer{
@@ -247,3 +242,7 @@ color: var(--white);
   .footer{
     font-size: 40px;
   }
+  .fa-solid{
+    padding: 15px;
+  }
+}
