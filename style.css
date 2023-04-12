@@ -4,6 +4,10 @@
   box-sizing: border-box;
   font-family: times new roman;
 }
+.fa-solid{
+  color: cyan;
+  padding: 5px;
+}
 body{
   background-color: rgb(25,25,100);
 }
@@ -129,7 +133,10 @@ li a:hover{
   }
   .btn{
     width: 500px;
-    height: 80px;
     margin-left: 130px;
     font-size: 2rem;
   }
+  .fa-solid{
+    padding: 15px;
+  }  
+}
